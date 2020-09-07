@@ -27,3 +27,20 @@ l4.pop()
 print('values of l4 after using pop func.',l4)
 l4.remove(77)
 print('values of l4 after using remove  func.',l4)
+
+#max, min and sum
+print('the max value of l4 is',max(l4))
+print('the min value of l1 is',min(l1))
+print('the sum of all values of l1 is',sum(l1))
+
+#count,sort
+print('the count of 40 in the list is',l1.count(l1))
+l5=[3000,1,150]
+l5.sort()
+print('afer sorting l5 :',l5)
+
+l1.clear()
+print('after clearing :',l1)
+del(l1)
+
+
