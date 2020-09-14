@@ -33,5 +33,3 @@ print(squares)
 # shortcut of the above code
 squares={x:x*x for x in range(1,11)}
 print(squares) 
-
-
