@@ -5,5 +5,3 @@ if v%9==0 :
     print (v,'is divisible by 9')
 else :
     print (v,'is not divisible by 9')   
-
-    print(1+2**3/4*2)
