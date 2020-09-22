@@ -2,4 +2,6 @@
 
 Arr=[1,7,150,786,3000]
 n=len(Arr)
-for i in n:
+for i in range(n):
+    Arr[i]+=i
+print(Arr)
