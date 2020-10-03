@@ -18,9 +18,9 @@ print(fact(n=int(input('No. to which factorial is to be calculated: '))))
 print("")
 
 # c. using a recursive function
-def fact(n):
+def fact1(n):
     if n==0 or n==1:
         return 1
     else:
-        return n*fact(n-1)
-print(fact(n=int(input('No. to which factorial is to be calculated: '))))
+        return n*fact1(n-1)
+print(fact1(n=int(input('No. to which factorial is to be calculated: '))))
